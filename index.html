@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <section class="dashboard">
+    <div class="dashboard__content">
+      <div class="dashboard__person">
+        <div class="info-person">
+          <img src="images/image-jeremy.png" alt="Avatar" class="info-person__img">
+          <div class="info-person__text">
+            <p class="info-person__subtitle">Report for</p>
+            <h3 class="info-person__title">Jeremy Robson</h3>
+          </div>
+        </div>
+        <div class="value-person">
+          <ul class="value-person__list">
+            <li class="value-person__item">
+              <button class="value-person__btn" id="btn-daily">Daily</button>
+            </li>
+            <li class="value-person__item">
+              <button class="value-person__btn value-person__btn--active" id="btn-weekly">Weekly</button>
+            </li>
+            <li class="value-person__item">
+              <button class="value-person__btn" id="btn-mounthly">Monthly</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
